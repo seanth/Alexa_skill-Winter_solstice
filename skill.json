@@ -1,0 +1,57 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Allows users to connect to Grahams Completely Normal Radio Programme, OR the Winter Solstice group DJ show",
+          "examplePhrases": [
+            "Alexa, stream solstice"
+          ],
+          "keywords": [
+            "Grahams",
+            "Completely",
+            "Normal",
+            "Radio",
+            "Programme",
+            "Winter",
+            "Solstice"
+          ],
+          "name": "Winter Solstice Radio",
+          "description": "Welcome to the long dark -- 24 hours of Winter Solstice audio.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special install/use instructions",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:353537213165:function:52d22e88-16e8-4187-82f2-550babe1e0a1:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
